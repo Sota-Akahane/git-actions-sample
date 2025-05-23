@@ -19,7 +19,7 @@ class MathUtilTest {
     @Test
     void powerTest1() {
         double actualAnswer = MathUtil.power(1, 1);
-        assertEquals(1.0, actualAnswer, "TC1:テスト失敗");
+        assertEquals(3, actualAnswer, "TC1:テスト失敗");
     }
 
     @Test
